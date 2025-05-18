@@ -29,7 +29,7 @@ int main() {
     cout << "Enter the training data file name: ";
     cin >> fileName;
 
-    pullData("/Users/kece/Desktop/MacOS/cpp/ML/" + fileName + ".csv");
+    pullData("/Users/kece/Desktop/MacOS/cpp/ML/Machine-Learning/LeastSquares/" + fileName + ".csv");
     
     weights = leastSquares(features, result);
 
