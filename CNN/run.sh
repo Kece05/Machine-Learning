@@ -8,4 +8,4 @@ g++ -std=c++11 -o cnn \
     src/cnn_layers.cpp \
     src/fc_layer.cpp
 
-./cnn "$@"  # <-- passes command line args to ./cnn
+./cnn "$@"
