@@ -41,7 +41,7 @@ Input (28x28 image)
 
 * `-e`: Number of training epochs (default: 10)
 * `-n`: Number of training samples (default: 2500)
-* `-s`: Name for saving the trained model
+* `-s`: Name for saving the trained model (default: cnn_fc_model.bin)
 
 ### Example output
 ```bash
