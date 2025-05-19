@@ -28,10 +28,10 @@ int main(int argc, char* argv[]) {
     //Load data set
     MNIST_loader mnist;
     mnist.load(
-        "/Users/kece/Desktop/MacOS/cpp/CNN/src/data/MNIST/train-images.idx3-ubyte",
-        "/Users/kece/Desktop/MacOS/cpp/CNN/src/data/MNIST/train-labels.idx1-ubyte",
-        "/Users/kece/Desktop/MacOS/cpp/CNN/src/data/MNIST/t10k-images.idx3-ubyte",
-        "/Users/kece/Desktop/MacOS/cpp/CNN/src/data/MNIST/t10k-labels.idx1-ubyte");
+        "/FilePath/CNN/src/data/MNIST/train-images.idx3-ubyte",
+        "/FilePath/CNN/src/data/MNIST/train-labels.idx1-ubyte",
+        "/FilePath/CNN/src/data/MNIST/t10k-images.idx3-ubyte",
+        "/FilePath/CNN/src/data/MNIST/t10k-labels.idx1-ubyte");
 
     //Kernels that will be used in the feature maps
     vector<vector<vector<float>>> kernels = {
@@ -90,10 +90,10 @@ int main(int argc, char* argv[]) {
         trainer.train(mnist, epochs, num_images);
 
         //Saving model
-        model_IO::save_model("/Users/kece/Desktop/MacOS/cpp/CNN/models/" + fileName, fc_weights, fc_bias);
+        model_IO::save_model("/FilePath/CNN/models/" + fileName, fc_weights, fc_bias);
     } else if (mode == "test") {
         //Loading model
-        model_IO::load_model("/Users/kece/Desktop/MacOS/cpp/CNN/models/" + fileName, fc_weights, fc_bias);
+        model_IO::load_model("/FilePath/CNN/models/" + fileName, fc_weights, fc_bias);
 
         //Testing model
         Tester tester(fc_weights, fc_bias, kernels);
