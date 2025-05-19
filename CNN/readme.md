@@ -90,7 +90,3 @@ Trained models are saved under the `models/` directory with `.bin` extension and
 
 * Data: [Yann LeCun's MNIST dataset](http://yann.lecun.com/exdb/mnist/)
 * Design and code assistance provided with the help of [ChatGPT](https://openai.com/chatgpt)
-
-## 📜 License
-
-MIT License — for learning, experimentation, and educational purposes.
