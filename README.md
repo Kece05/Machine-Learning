@@ -99,7 +99,7 @@ This project is ideal for:
 
 ## ✍️ Author
 
-Developed by \Keller Bice — for learning and experimentation with fundamental machine learning techniques.
+Developed by Keller Bice — for learning and experimentation with fundamental machine learning techniques.
 
 ---
 
