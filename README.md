@@ -30,5 +30,22 @@ This project is a basic Convolutional Neural Network implemented from scratch to
 - 💾 Model can be trained and saved to file
 - 🧪 Accuracy output per epoch
 
+---
+
+### 3. Multi-Layer Perceptron (MLP)
+This project implements a simple Multilayer Perceptron (MLP) from scratch in C++ to predict housing prices using a CSV dataset.  
+
+- 📄 Input: `housing_prices.csv` with 13 features per record  
+- ⚙️ Output: Trained MLP model saved in binary format  
+- 💡 Functionality:  
+  - Z-score normalization of features  
+  - Train/test split (80/20) with random shuffling  
+  - Configurable architecture (e.g. `{13, 64, 32, 1}`)  
+  - ReLU activations and MSE loss  
+  - Reports training loss per epoch  
+  - Evaluates test set: RMSE and “accuracy” (predictions within ±10% of true)  
+
+---
+
 ### 🤝 Credits
 This project was created by Kece05 with implementation structure and sample code support provided by ChatGPT. Designed for educational purposes to deepen understanding of machine learning foundations.
