@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    dataLoader set("/Users/kece/Desktop/MacOS/cpp/ML/MLP/data/housing_prices.csv");
+    dataLoader set("/Path to file/MLP/data/housing_prices.csv");
 
     set.load_data();
 
